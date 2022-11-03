@@ -6,7 +6,7 @@ BinaryTreeNode<int>* constructTree(int *input, int n) {
     }
     int rootIndex;
     if(n%2==0){
-        rootIndex=n/2-1;
+        rootIndex=(n/2)-1;
     }
     else{
         rootIndex=n/2;
